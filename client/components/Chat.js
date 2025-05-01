@@ -1,5 +1,6 @@
 import Image from "next/image"
 import { new_user } from "@/assets"
+import { useRef, useEffect } from "react";
 
 const Chat = ({chat, user, typing}) => {
     const scroller = useRef(null);

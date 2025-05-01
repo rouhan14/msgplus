@@ -62,8 +62,6 @@ export default function Home() {
           <Inputs setChat={setChat} user={user.current} socket={socket} />
         </>
         : <SignUp user={user} socket={socket} input={input} setInput={setInput} />}
-        <button onClick={() => socket.emit("btn_clicked", "YOYO")}>Click Me</button>
-
       </main>
         );
 }
