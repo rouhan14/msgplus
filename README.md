@@ -34,9 +34,11 @@ npm run dev
 
 
 ### 3. Start the Frontend Server (Next.js)
+```
 cd ../client
 npm install
 npm run dev
+```
 
 
 ⚡ Socket.IO Integration
