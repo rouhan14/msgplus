@@ -1,6 +1,3 @@
-# Root-level .gitignore for msgplus repo
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
 # ─── Dependencies ───────────────────────────────────────────────────────────────
 client/node_modules/
 server/node_modules/
