@@ -13,7 +13,18 @@ const io = new Server(server, {
 })
 
 io.on("connection", (socket) => {
-    console.log(`User is connected with id: ${socket.id}`)
+
+    socket.on("send_msg", (msg) => {
+        socket.broadcast.emit("receive_msg", msg)
+    })
+
+    socket.on("user_typing", (data) => {
+        socket.broadcast.emit("user_typing", data)
+    })
+
+    socket.on("new_user", (data) => {
+        socket.broadcast.emit("new_user", data.user)
+    })
 })
 
 server.listen(3001, () => {
