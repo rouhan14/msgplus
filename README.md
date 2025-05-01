@@ -24,7 +24,7 @@ msgplus/ ├── client/ # Next.js frontend (Tailwind CSS) ├── server/ #
 ## 🛠️ Getting Started
 
 ### 1. Clone the repository
-git clone https://github.com/your-username/msgplus.git
+git clone https://github.com/rouhan14/msgplus.git
 cd msgplus
 
 ### 2. Start the Backend Server (Express)
